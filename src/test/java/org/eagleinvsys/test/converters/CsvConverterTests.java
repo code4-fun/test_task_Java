@@ -45,7 +45,7 @@ public class CsvConverterTests {
 
     String expected = "\"headerOne\",\"headerTwo\"\n" +
         "\"one\",\"two\"\n" +
-        "\"three\",\"fouur\"\n";
+        "\"three\",\"four\"\n";
     String actual = stream.toString();
 
     assertEquals(expected, actual);
